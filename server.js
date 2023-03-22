@@ -19,4 +19,4 @@ app.get('/js', (req,res) => {
   res.sendFile(__dirname + '/public/main.js')
 })
 
-app.listen(5150, () => {console.log('up on 5150')})
+app.listen(4000, () => {console.log('up on 4000')})
